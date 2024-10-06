@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="image-container1">
+                <img src="eco.jpg" alt="Climate Change Visualization" />
+            </div>
+            <ul>
+                <li><a href="Climate-story.html">Climate-story</a></li>
+                <li> 
+                    <a href="#" onclick="toggleSubMenu('globalSubMenu')">Global Emission</a>
+                    <ul id="globalSubMenu" class="submenu">
+                        <li><a href="index.html">Graph</a></li>
+                    </ul>
+                </li>
+                   
+                <li>
+                    <a href="#" onclick="toggleSubMenu('co2SubMenu')">CO₂ Emissions</a>
+                    <ul id="co2SubMenu" class="submenu">
+                        <li><a href="summary1.html">Summary</a></li>
+                        <li><a href="gas1.html">Graph</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="toggleSubMenu('CH4SubMenu')">CH₄ Emissions</a>
+                    <ul id="CH4SubMenu" class="submenu">
+                        <li><a href="summary2.html">Summary</a></li>
+                        <li><a href="gas2.html">Graph</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li> <a href="#" onclick="toggleSubMenu('N2OEmissionsbMenu')">N₂O Emissions</a>
+                    <ul id="N2OEmissionsbMenu" class="submenu">
+                        <li><a href="summary3.html">Summary</a></li>
+                        <li><a href="gas3.html">Graph</a></li>
+                    </ul>
+                </li></li>
+                <li> <a href="#" onclick="toggleSubMenu('FluorinatedGasEmissionsSubMenu')">Fluorinated Gas Emissions</a>
+                    <ul id="FluorinatedGasEmissionsSubMenu" class="submenu">
+                        <li><a href="summary4.html">Summary</a></li>
+                        <li><a href="gas4.html">Graph</a></li>
+                    </ul>
+                </li></li>
+               
+            </ul>
+        </nav>
+
+        <!-- Main Dashboard Area -->
+        <div class="dashboard">
+            <h1>Climate Change Dashboard: GHG Emissions</h1>
+                <br>
+            <!-- Chart Area -->
+            <b><h2>Nitrous oxide Emission : </h2></b> <br>
+            <div class="chart-container">
+                <p><p>Nitrous oxide (N2O) is a potent greenhouse gas that contributes to global warming and climate change. It is released into the atmosphere through several human activities, particularly in agriculture, industry, and waste management. Nitrous oxide is naturally present in small amounts, but human activities have increased its levels, worsening its impact on the environment.</p>
+
+                <h3><b>Causes of Nitrous Oxide Emissions:</b></h3>
+                <p><b>1. Agricultural activities:</b> The use of nitrogen-based fertilizers is the largest source of N2O emissions. When these fertilizers break down in the soil, they release nitrous oxide. Livestock manure also emits N2O.</p>
+                <p><b>2. Fossil fuel combustion:</b> Burning coal, oil, and natural gas for energy in vehicles, factories, and power plants releases nitrous oxide.</p>
+                <p><b>3. Industrial processes:</b> Certain chemical industries, especially those producing nitric acid and fertilizers, generate N2O as a byproduct.</p>
+                <p><b>4. Waste management:</b> The treatment of wastewater and the decay of solid waste in landfills can release nitrous oxide into the atmosphere.</p>
+            
+                <h3><b>Effects of Nitrous Oxide:</b></h3>
+                <p><b>1. Global warming:</b> Nitrous oxide is about 300 times more effective than carbon dioxide at trapping heat in the atmosphere, making it a significant contributor to global warming.</p>
+                <p><b>2. Ozone depletion:</b> N2O plays a role in depleting the ozone layer, which protects the Earth from harmful ultraviolet (UV) radiation. This can lead to increased skin cancer rates and harm to crops and ecosystems.</p>
+                <p><b>3. Climate change:</b> Rising N2O levels contribute to more extreme weather events, such as floods, droughts, and stronger storms, impacting agriculture, human health, and infrastructure.</p>
+            
+                <h3><b>Prevention of Nitrous Oxide Emissions:</b></h3>
+                <p><b>1. Improve agricultural practices:</b> Using fertilizers more efficiently, adopting precision farming, and better manure management can significantly reduce N2O emissions from agriculture.</p>
+                <p><b>2. Reduce fossil fuel use:</b> Switching to cleaner energy sources like solar, wind, and electric vehicles can cut N2O emissions from energy production and transportation.</p>
+                <p><b>3. Adopt cleaner industrial technologies:</b> Industries can implement technologies to capture or reduce N2O emissions during chemical production.</p>
+                <p><b>4. Improve waste management:</b> Better treatment of wastewater and solid waste, including capturing gases from landfills, can help reduce N2O emissions from waste management.</p>
+            
+                <p>By reducing nitrous oxide emissions through smarter agricultural practices, cleaner energy use, and better waste management, we can help limit its impact on climate change and protect the environment.</p>
+                </p>
+            </div>
+
+            
+            
+            
+                
+                
+    
+
+            <!-- Range Slider for Years -->
+            
+        </div>
+    </div>
+    <script src="test3.js"></script>
+     
+</body>
+</html>
+

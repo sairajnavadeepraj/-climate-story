@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="image-container1">
+                <img src="eco.jpg" alt="Climate Change Visualization" />
+            </div>
+            <ul>
+                <li><a href="Climate-story.html">Climate-story</a></li>
+                <li> 
+                    <a href="#" onclick="toggleSubMenu('globalSubMenu')">Global Emission</a>
+                    <ul id="globalSubMenu" class="submenu">
+                        <li><a href="index.html">Graph</a></li>
+                    </ul>
+                </li>
+                   
+                <li>
+                    <a href="#" onclick="toggleSubMenu('co2SubMenu')">CO₂ Emissions</a>
+                    <ul id="co2SubMenu" class="submenu">
+                        <li><a href="summary1.html">Summary</a></li>
+                        <li><a href="gas1.html">Graph</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="toggleSubMenu('CH4SubMenu')">CH₄ Emissions</a>
+                    <ul id="CH4SubMenu" class="submenu">
+                        <li><a href="summary2.html">Summary</a></li>
+                        <li><a href="gas2.html">Graph</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li> <a href="#" onclick="toggleSubMenu('N2OEmissionsbMenu')">N₂O Emissions</a>
+                    <ul id="N2OEmissionsbMenu" class="submenu">
+                        <li><a href="summary3.html">Summary</a></li>
+                        <li><a href="gas3.html">Graph</a></li>
+                    </ul>
+                </li></li>
+                <li> <a href="#" onclick="toggleSubMenu('FluorinatedGasEmissionsSubMenu')">Fluorinated Gas Emissions</a>
+                    <ul id="FluorinatedGasEmissionsSubMenu" class="submenu">
+                        <li><a href="summary4.html">Summary</a></li>
+                        <li><a href="gas4.html">Graph</a></li>
+                    </ul>
+                </li></li>
+                
+            </ul>
+        </nav>
+
+        <!-- Main Dashboard Area -->
+        <div class="dashboard">
+            <h1>Climate Change Dashboard: GHG Emissions</h1>
+                <br>
+            <!-- Chart Area -->
+            <b><h2>Carbon dioxide Emission : </h2></b> <br>
+            <div class="chart-container">
+                <p><p>Carbon dioxide (CO2) is a gas that enters the atmosphere mainly through human activities like burning fossil fuels (coal, oil, and natural gas) for energy, transportation, and industry. It is also released during the production of cement, burning of solid waste, and deforestation. Naturally, CO2 is part of the carbon cycle, where it is absorbed by plants through photosynthesis, helping to keep the balance of CO2 in the atmosphere. However, human activities have increased CO2 levels, leading to significant environmental impacts.</p>
+                
+                <h3><b>Causes of CO2 Emissions:</b></h3>
+                <p><b>1. Burning fossil fuels:</b> For electricity, heating, and transportation.</p>
+                <p><b>2. Industrial processes:</b> Like cement and steel production.</p>
+                <p><b>3. Deforestation:</b> Cutting down trees reduces the natural absorption of CO2.</p>
+                <p><b>4. Waste management:</b> Decomposition of organic waste releases CO2.</p>
+                
+                <h3><b>Effects of Excess CO2:</b></h3>
+                <p><b>1. Global warming:</b> CO2 is a major greenhouse gas, trapping heat in the atmosphere and causing Earth's temperature to rise.</p>
+                <p><b>2. Climate change:</b> Rising temperatures lead to more extreme weather events, such as heatwaves, droughts, and storms.</p>
+                <p><b>3. Rising sea levels:</b> Melting ice caps and glaciers caused by warming contribute to higher sea levels, threatening coastal areas.</p>
+                <p><b>4. Ecosystem disruption:</b> Changing temperatures affect wildlife, plant life, and human agriculture, making food and water harder to access.</p>
+                
+                <h3><b>Prevention of CO2 Emissions:</b></h3>
+                <p><b>1. Switch to renewable energy:</b> Use solar, wind, and hydropower instead of fossil fuels.</p>
+                <p><b>2. Increase energy efficiency:</b> Use energy-efficient appliances and vehicles.</p>
+                <p><b>3. Reforestation:</b> Plant more trees to absorb CO2 and protect existing forests.</p>
+                <p><b>4. Reduce waste:</b> Recycle and compost to lower CO2 emissions from waste management.</p>
+                <p><b>5. Adopt cleaner technologies:</b> Promote the use of electric vehicles and carbon capture technologies.</p>
+                
+                <p>By reducing CO2 emissions and adopting sustainable practices, we can help protect the planet from the harmful effects of climate change.</p>
+             </p>
+            </div>
+
+            
+            
+            
+                
+                
+    
+
+            <!-- Range Slider for Years -->
+            
+        </div>
+    </div>
+    <script src="test3.js"></script>
+     
+</body>
+</html>
+

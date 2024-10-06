@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #2f3b52;
+    padding-top: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #425373;
+}
+
+/* Submenu styles */
+.sidebar ul .submenu {
+    display: none;
+    background-color: #3a485e;
+    margin: 0; /* Reset margin for submenu items */
+}
+
+.sidebar ul .submenu li {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.sidebar ul .submenu li a {
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+.sidebar ul .submenu li a:hover {
+    background-color: #4d5971;
+}
+
+/* Active Sidebar Toggle */
+.sidebar.active {
+    width: 250px; /* Example width change when sidebar is toggled */
+}
+
+.dashboard {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+canvas {
+    max-width: 100%;
+    height: 400px;
+}
+
+.gas-types {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.gas-types div {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f4fa;
+}
+
+.range-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="range"] {
+    width: 60%;
+}
+
+#yearLabel {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.image-container img {
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    height: auto; /* Maintains the aspect ratio */
+    width: 100%; /* You can adjust this value to resize the image */
+    
+    padding: 10px; /* Optional: Adds padding inside the border */
+    
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="image-container1">
+                <img src="eco.jpg" alt="Climate Change Visualization" />
+            </div>
+            <ul>
+                <li><a href="Climate-story.html">Climate-story</a></li>
+                <li> 
+                    <a href="#" onclick="toggleSubMenu('globalSubMenu')">Global Emission</a>
+                    <ul id="globalSubMenu" class="submenu">
+                        <li><a href="index.html">Graph</a></li>
+                    </ul>
+                </li>
+                   
+                <li>
+                    <a href="#" onclick="toggleSubMenu('co2SubMenu')">CO₂ Emissions</a>
+                    <ul id="co2SubMenu" class="submenu">
+                        <li><a href="summary1.html">Summary</a></li>
+                        <li><a href="gas1.html">Graph</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="toggleSubMenu('CH4SubMenu')">CH₄ Emissions</a>
+                    <ul id="CH4SubMenu" class="submenu">
+                        <li><a href="summary2.html">Summary</a></li>
+                        <li><a href="gas2.html">Graph</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li> <a href="#" onclick="toggleSubMenu('N2OEmissionsbMenu')">N₂O Emissions</a>
+                    <ul id="N2OEmissionsbMenu" class="submenu">
+                        <li><a href="summary3.html">Summary</a></li>
+                        <li><a href="gas3.html">Graph</a></li>
+                    </ul>
+                </li></li>
+                <li> <a href="#" onclick="toggleSubMenu('FluorinatedGasEmissionsSubMenu')">Fluorinated Gas Emissions</a>
+                    <ul id="FluorinatedGasEmissionsSubMenu" class="submenu">
+                        <li><a href="summary4.html">Summary</a></li>
+                        <li><a href="gas4.html">Graph</a></li>
+                    </ul>
+                </li></li>
+               
+            </ul>
+        </nav>
+
+        <!-- Main Dashboard Area -->
+        <div class="dashboard">
+            <h1>Climate Change Dashboard: GHG Emissions</h1>
+                <br>
+            <!-- Chart Area -->
+            <b><h2>Fluorinated gases Emission : </h2></b> <br>
+            <div class="chart-container">
+                <p><p>Fluorinated gases are synthetic greenhouse gases used in various household, commercial, and industrial applications. These gases include hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3). They are often used as substitutes for ozone-depleting substances like chlorofluorocarbons (CFCs) in refrigeration, air conditioning, and insulation. While fluorinated gases are emitted in smaller quantities compared to other greenhouse gases, they are extremely potent, with global warming potentials (GWPs) thousands of times higher than carbon dioxide (CO2).</p>
+
+                <h3><b>Causes of Fluorinated Gas Emissions:</b></h3>
+                <p><b>1. Refrigeration and air conditioning:</b> HFCs are commonly used in cooling systems and can leak into the atmosphere during equipment use and disposal.</p>
+                <p><b>2. Industrial processes:</b> PFCs, SF6, and NF3 are used in electronics manufacturing, aluminum production, and electrical insulation, which can release these gases.</p>
+                <p><b>3. Aerosols and solvents:</b> Some products, such as spray cans and cleaning agents, contain fluorinated gases that are released during use.</p>
+            
+                <h3><b>Effects of Fluorinated Gases:</b></h3>
+                <p><b>1. Global warming:</b> Fluorinated gases trap significantly more heat than CO2, making them highly impactful on global warming despite their smaller quantities.</p>
+                <p><b>2. Long-lasting impact:</b> These gases can remain in the atmosphere for hundreds to thousands of years, continuously contributing to the greenhouse effect.</p>
+                <p><b>3. Ozone depletion:</b> While fluorinated gases themselves don’t deplete the ozone, they were introduced as replacements for ozone-depleting substances, which helps protect the ozone layer but worsens global warming.</p>
+            
+                <h3><b>Prevention of Fluorinated Gas Emissions:</b></h3>
+                <p><b>1. Switch to alternatives:</b> Using natural refrigerants and low-GWP alternatives in cooling systems can reduce HFC emissions.</p>
+                <p><b>2. Improve equipment maintenance:</b> Regular maintenance and proper disposal of air conditioning and refrigeration equipment can prevent leaks.</p>
+                <p><b>3. Adopt cleaner industrial technologies:</b> Industries can develop and use technologies that minimize the use of high-GWP gases.</p>
+                <p><b>4. Regulations and policies:</b> Governments can regulate and limit the use of fluorinated gases through international agreements like the Kigali Amendment, which aims to phase down HFCs.</p>
+            
+                <p>Reducing fluorinated gas emissions is essential in limiting their harmful effects on global warming, especially since they trap much more heat than other greenhouse gases.</p>
+            </p>
+            </div>
+
+            
+            
+            
+                
+                
+    
+
+            <!-- Range Slider for Years -->
+            
+        </div>
+    </div>
+    <script src="test3.js"></script>
+     
+</body>
+</html>
+

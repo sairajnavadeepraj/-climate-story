@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Dashboard</title>
+    <link rel="stylesheet" href="test2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="image-container">
+                <img src="eco.jpg" alt="Climate Change Visualization" />
+            </div>
+            <ul>
+                <li><a href="Climate-story.html">Climate-story</a></li>
+                <li> 
+                    <a href="#" onclick="toggleSubMenu('globalSubMenu')">Global Emission</a>
+                    <ul id="globalSubMenu" class="submenu">
+                        <li><a href="index.html">Graph</a></li>
+                    </ul>
+                </li>
+                   
+                <li>
+                    <a href="#" onclick="toggleSubMenu('co2SubMenu')">CO₂ Emissions</a>
+                    <ul id="co2SubMenu" class="submenu">
+                        <li><a href="summary1.html">Summary</a></li>
+                        <li><a href="gas1.html">Graph</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="toggleSubMenu('CH4SubMenu')">CH₄ Emissions</a>
+                    <ul id="CH4SubMenu" class="submenu">
+                        <li><a href="summary2.html">Summary</a></li>
+                        <li><a href="gas2.html">Graph</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li> <a href="#" onclick="toggleSubMenu('N2OEmissionsbMenu')">N₂O Emissions</a>
+                    <ul id="N2OEmissionsbMenu" class="submenu">
+                        <li><a href="summary3.html">Summary</a></li>
+                        <li><a href="gas3.html">Graph</a></li>
+                    </ul>
+                </li></li>
+                <li> <a href="#" onclick="toggleSubMenu('FluorinatedGasEmissionsSubMenu')">Fluorinated Gas Emissions</a>
+                    <ul id="FluorinatedGasEmissionsSubMenu" class="submenu">
+                        <li><a href="summary4.html">Summary</a></li>
+                        <li><a href="gas4.html">Graph</a></li>
+                    </ul>
+                </li></li>
+                
+            </ul>
+        </nav>
+
+        <!-- Main Dashboard Area -->
+        <div class="dashboard">
+            <h1>Climate Change Dashboard: GHG Emissions</h1>
+
+            <!-- Chart Area -->
+            <div class="chart-container">
+                <canvas id="ghgChart"></canvas>
+            </div>
+
+            <!-- Gas Type Display -->
+            <div class="gas-types">
+                <div>CO₂</div>
+                <div>CH₄</div>
+                <div>N₂O</div>
+                <div>F</div>
+            </div>
+
+            <!-- Range Slider for Years -->
+            <div class="range-slider">
+                <input type="range" id="yearRange" min="2000" max="2022" value="2022" step="1">
+                <label id="yearLabel">2022</label>
+            </div>
+        </div>
+    </div>
+    <div id="pag1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, modi. Architecto consectetur error veritatis maxime, voluptatum nihil quod voluptate unde illo, suscipit, consequatur non debitis voluptas labore! Veniam, alias facilis?</p>
+    </div>
+    
+    <script src="test2.js"></script>
+</body>
+</html>
+

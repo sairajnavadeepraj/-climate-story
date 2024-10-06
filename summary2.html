@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="image-container1">
+                <img src="eco.jpg" alt="Climate Change Visualization" />
+            </div>
+            <ul>
+                <li><a href="Climate-story.html">Climate-story</a></li>
+                <li> 
+                    <a href="#" onclick="toggleSubMenu('globalSubMenu')">Global Emission</a>
+                    <ul id="globalSubMenu" class="submenu">
+                        <li><a href="index.html">Graph</a></li>
+                    </ul>
+                </li>
+                   
+                <li>
+                    <a href="#" onclick="toggleSubMenu('co2SubMenu')">CO₂ Emissions</a>
+                    <ul id="co2SubMenu" class="submenu">
+                        <li><a href="summary1.html">Summary</a></li>
+                        <li><a href="gas1.html">Graph</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" onclick="toggleSubMenu('CH4SubMenu')">CH₄ Emissions</a>
+                    <ul id="CH4SubMenu" class="submenu">
+                        <li><a href="summary2.html">Summary</a></li>
+                        <li><a href="gas2.html">Graph</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li> <a href="#" onclick="toggleSubMenu('N2OEmissionsbMenu')">N₂O Emissions</a>
+                    <ul id="N2OEmissionsbMenu" class="submenu">
+                        <li><a href="summary3.html">Summary</a></li>
+                        <li><a href="gas3.html">Graph</a></li>
+                    </ul>
+                </li></li>
+                <li> <a href="#" onclick="toggleSubMenu('FluorinatedGasEmissionsSubMenu')">Fluorinated Gas Emissions</a>
+                    <ul id="FluorinatedGasEmissionsSubMenu" class="submenu">
+                        <li><a href="summary4.html">Summary</a></li>
+                        <li><a href="gas4.html">Graph</a></li>
+                    </ul>
+                </li></li>
+               
+            </ul>
+        </nav>
+
+        <!-- Main Dashboard Area -->
+        <div class="dashboard">
+            <h1>Climate Change Dashboard: GHG Emissions</h1>
+                <br>
+            <!-- Chart Area -->
+            <b><h2>Methane Emission : </h2></b> <br>
+            <div class="chart-container">
+                <p>Methane (CH4) is a potent greenhouse gas, primarily emitted through human activities. It is released during the production and transportation of fossil fuels such as coal, oil, and natural gas. Methane also comes from agricultural activities, especially livestock like cows, which produce methane during digestion. Other sources include the decay of organic waste in landfills and rice farming.</p>
+
+    <h3><b>Causes of Methane Emissions:</b></h3>
+    <p><b>1. Fossil fuel production:</b> Methane is released during the extraction, processing, and transport of coal, oil, and natural gas.</p>
+    <p><b>2. Livestock farming:</b> Animals, particularly cattle, release methane during digestion (known as enteric fermentation).</p>
+    <p><b>3. Landfills:</b> Organic waste like food and paper decays in landfills, producing methane.</p>
+    <p><b>4. Agricultural practices:</b> Rice paddies and the use of manure also emit methane.</p>
+
+    <h3><b>Effects of Methane:</b></h3>
+    <p><b>1. Global warming:</b> Methane is about 25 times more effective at trapping heat in the atmosphere than CO2, making it a major contributor to climate change.</p>
+    <p><b>2. Climate change:</b> Rising methane levels lead to more extreme weather patterns, such as storms, droughts, and flooding.</p>
+    <p><b>3. Ecosystem damage:</b> Higher temperatures disrupt natural ecosystems, affecting biodiversity, agriculture, and water resources.</p>
+    <p><b>4. Air pollution:</b> Methane contributes to the formation of ground-level ozone, which can harm human health, crops, and ecosystems.</p>
+
+    <h3><b>Prevention of Methane Emissions:</b></h3>
+    <p><b>1. Improve waste management:</b> Better management of organic waste, including recycling, composting, and capturing landfill gas, can reduce methane emissions.</p>
+    <p><b>2. Reduce livestock emissions:</b> Implementing better feeding practices, improving animal management, and using methane-capturing technology can lower emissions from livestock.</p>
+    <p><b>3. Transition to cleaner energy:</b> Reducing reliance on fossil fuels and increasing the use of renewable energy sources can significantly cut methane emissions from energy production.</p>
+    <p><b>4. Improve agricultural practices:</b> Managing rice paddies more efficiently, using bio-digesters for manure, and adopting sustainable farming techniques can reduce methane emissions from agriculture.</p>
+
+    <p>Reducing methane emissions is crucial for limiting the harmful effects of climate change. By focusing on better energy, waste, and farming practices, we can significantly slow the rate of global warming.</p>
+
+            </div>
+
+            
+            
+            
+                
+                
+    
+
+            <!-- Range Slider for Years -->
+            
+        </div>
+    </div>
+    <script src="test3.js"></script>
+     
+</body>
+</html>
+
